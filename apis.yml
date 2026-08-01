@@ -1,7 +1,30 @@
 aid: tidal-metals
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tidal-metals.png
 name: Tidal Metals
-description: Tidal Metals is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Tidal Metals is a deep-tech materials company that extracts decarbonized
+  magnesium directly from seawater and desalination brine using only electricity
+  from renewable sources, without mining, chemical additives, or brine waste. The
+  company's patented process concentrates and extracts magnesium salt to address a
+  critical supply-chain vulnerability: the United States currently produces no
+  primary magnesium while China controls roughly 91% of global supply. Founded by
+  Ph.D. physicists and engineers with backgrounds in nuclear engineering and
+  plasma physics from MIT, Princeton, and Wisconsin-Madison, and backed by DCVC,
+  Tidal Metals aims for carbon-neutral, domestically scalable magnesium
+  production. Surfaced as a portfolio company of DCVC and added to the API
+  Evangelist network; the company publishes no public API, developer portal, or
+  machine-readable surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/tidal-metals/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +34,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Magnesium
+- Critical Minerals
+- Materials
+- Cleantech
+- Decarbonization
+- Seawater Extraction
+- Deep Tech
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/tidal-metals-domain-security.yml
+- type: Website
+  url: https://tidalmetals.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
